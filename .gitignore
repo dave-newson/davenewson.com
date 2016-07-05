@@ -1,0 +1,8 @@
+build/
+vendor/
+.idea/
+.node_modules/
+node_modules/
+composer.lock
+spress.phar
+src/content/download/

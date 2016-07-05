@@ -1,0 +1,23 @@
+---
+layout: "page"
+title: "Projects"
+description: "Things happen. They get written about."
+header_img:
+    url: "assets/img/header/projects.jpg"
+    darken: 0.5
+---
+{% for project in site.projects if project.subpage is not defined or project.subpage == false %}
+<div class="post-preview">
+    <a href="{{ site.url }}{{ project.url }}">
+        <h2 class="post-title">
+            {{ project.title }}
+        </h2>
+        {% if project.subtitle %}
+        <h3 class="post-subtitle">
+            {{ project.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+</div>
+<hr>
+{% endfor %}

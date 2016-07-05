@@ -1,0 +1,37 @@
+# Site settings
+title: "Dave Newson"
+
+# Default header image
+header_img:
+  url: "assets/img/header/header.jpg"
+
+# Ignore anything but MD
+text_extensions: [ 'htm', 'html', 'html.twig', 'twig.html', 'markdown', 'md', 'yml' ]
+
+# Outputting
+include: ['.htaccess']
+exclude: []
+
+timezone: 'Australia/Sydney'
+safe: false
+permalink: 'pretty'
+preserve_path_title: false
+layout_ext: ['html.twig', 'twig', 'html']
+
+comments:
+  enabled: false
+  disqus_shortname: ""
+
+social_networks:
+    twitter: "vincetherunt" # Your id without @
+    github: "https://github.com/dave-newson"
+    linkedin: # Your URL
+
+collections:
+  posts:
+    output: true
+    sort_by: 'date'
+    sort_type: 'descending'
+  projects:
+    output: true
+    title: "Projects"

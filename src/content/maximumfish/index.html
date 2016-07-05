@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" />
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MaximumFish</title>
+<!--
+
+MaximumFish
+Maximum Fish claculator script
+
+
+Code by Dave Newson         <vince at shiftrunstop dot com>
+
+Based loosely on Virtual Max's floating Image Script
+http://www.dynamicdrive.com/dynamicindex4/flyimage.htm
+
+
+Images by Cara Skelsey      <cara dot skelsey at googlemail dot com>
+
+Some of the fish designs base on those by Hayes Roberts
+http://www.bluebison.net/content/?cat=55
+
+-->
+
+<script type="text/javascript" src="maximumfish.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="maximumfish.css" />
+</head>
+<body>
+
+<!-- Background Image -->
+<img id="background" src="images/background.jpg" width="0" height="0" alt="maximum fish" class="background" />
+
+
+<!-- Bottom Right Info/Stats -->
+<div class="br-container">
+<table width="800">
+    <tr>
+        <td width="20%" id="dev_fish">&nbsp;</td>
+        <td width="20%" id="dev_ticks">&nbsp;</td>
+        <td width="20%" id="dev_frames_time">&nbsp;</td>
+        <td width="40%" class="info">&copy; <a href="http://www.davenewson.com/">Dave Newson</a> 2008</td>
+    </tr>
+</table>
+
+</div>
+
+<!-- Background fish counter -->
+<div class="fishcounter">
+    <table>
+        <tr class="t"><td>&nbsp;</td></tr>
+        <tr class="m"><td class="body" id="fish">FISH</td></tr>
+        <tr class="b"><td>&nbsp;</td></tr>
+    </table>
+</div>
+
+<!-- maximum fish results box -->
+<div class="maximumfish" id="maximumfish_container">
+    <table>
+        <tr class="pad">
+            <td class="pad" colspan="3">
+                <div class="logo_holder" id="puffy_container">
+                    <img src="images/puffy.png" width="300" height="300" alt="puffy" id="puffy" class="puffy" />
+                </div>&nbsp;
+            </td>
+        </tr>
+        <tr class="t">
+            <td class="tl" id="border_tl">&nbsp;</td>
+            <td class="t" >&nbsp;</td>
+            <td class="tr" id="border_tr">
+            </td>
+        </tr>
+        <tr class="m">
+            <td class="l">&nbsp;</td>
+            <td class="body">
+            <span>MAXIMUM&nbsp;FISH</span>
+            <span id="maximumfish" class="result">&nbsp;</span>
+            <span class="resume_button" id="resume_button"><a href="javascript:resume_fish();">Resume Fish?</a></span></td>
+            <td class="r"></td>
+        </tr>
+        <tr class="b">
+            <td class="bl" id="border_bl">&nbsp;</td>
+            <td class="b">&nbsp;</td>
+            <td class="br" id="border_br">&nbsp;</td>
+        </tr>
+        <tr class="pad">
+            <td class="pad" colspan="3">&nbsp;</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

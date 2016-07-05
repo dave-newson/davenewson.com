@@ -1,0 +1,68 @@
+---
+layout: project
+title:      "The Armament Project"
+subtitle:   "Ultra-high resolution weapon models"
+
+header_img:
+  url: "assets/media/projects/armament-project/weapons/m4-ris/m4-ris-2.jpg"
+  darken: 0.5
+---
+
+<h1>The Armament Project</h1>
+
+<p>Started in 2005, The Armament Project was a royalty-free repository for super-high-resolution gun and weapon models, intended as a resource/reference for weapon modellers. This was in an attempt to improve the quality of 3d weapon art used in games and game mods, and on a personal note it was also a great exercise in improving my skills at 3d work.</p>
+
+<p>Unfortunately The Armament Project never really took off as a resource for modellers, however producing the models was extremely enjoyable and several made it to release. These can be seen below in each of their individual project pages.</p>
+
+<p>Each model is still provided royalty-free for non-commercial use.</p>
+
+<h2>Weapons</h2>
+
+<div class="row">
+{% for project in site.projects
+  if project.subpage is defined and project.subpage == true
+  and project.category is defined and project.category == "weapon" %}
+    <div class="col-md-4 gallery-item">
+        <a href="{{ site.url }}{{ project.url }}">
+            {% if project.thumbnail %}
+            <img src="{{ project.thumbnail }}" />
+            {% endif %}
+            <span>{{ project.title }}</span>
+        </a>
+    </div>
+{% endfor %}
+</div>
+
+<h2>Accessories</h2>
+
+<div class="row">
+{% for project in site.projects
+  if project.subpage is defined and project.subpage == true
+  and project.category is defined and project.category == "accessory" %}
+    <div class="col-md-4 gallery-item">
+        <a href="{{ site.url }}{{ project.url }}">
+            {% if project.thumbnail %}
+            <img src="{{ project.thumbnail }}" />
+            {% endif %}
+            <span>{{ project.title }}</span>
+        </a>
+    </div>
+{% endfor %}
+</div>
+
+<h2>Tools</h2>
+
+<div class="row">
+{% for project in site.projects
+  if project.subpage is defined and project.subpage == true
+  and project.category is defined and project.category == "tool" %}
+    <div class="col-md-4 gallery-item">
+        <a href="{{ site.url }}{{ project.url }}">
+            {% if project.thumbnail %}
+            <img src="{{ project.thumbnail }}" />
+            {% endif %}
+            <span>{{ project.title }}</span>
+        </a>
+    </div>
+{% endfor %}
+</div>

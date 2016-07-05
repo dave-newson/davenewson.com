@@ -1,0 +1,89 @@
+---
+layout: post
+title:      "Oculus Rift First Impressions"
+subtitle:   "These are my day 1 impressions of the Oculus Development Kit 2."
+date:       "2014-09-01 12:00:00"
+author:     "Dave Newson"
+header_img:
+  url: "assets/media/posts/2014-09-01-oculus/hl2.jpg"
+  darken: 0.25
+---
+
+Amazing. Absolutely amazing. Once you have the DK2 set up correctly, it really is an experience like no other.. except maybe reality itself, only in reality you can't switch from alien-murdering freedom-fighting scientist to space combat pilot to unusually dangerous fairground ride in a matter of minutes.
+
+<div class="text-center">
+    <img src="/assets/media/posts/2014-09-01-oculus/oculus.jpg" width="300" />
+</div>
+
+In setting up the DK2 there's an Oculus-supplied "demo scene" which is merely an infinite grid and a desk with several items on it. This meager scene was enough to wow me as I looked around and leaned in closer to items on the desk, wanting to reach out and knock things over, while in reality I'm waving my hands in thin air as I swoosh my fingers through the space I expect to be occupied by a pyramid of playing cards, _and it feels completely natural_.
+
+That's the draw of the Oculus DK2 - the head tracking is perceptibly instantaneous. The view of the world and the depth perception is spot on, making you feel like you're there. If only you didn't have a screen attached to your face and headphones clamped to your ears, it would be like a holodeck.
+
+## You just want to look at everything!
+
+For years games artists have been putting their blood sweat and tears into making believable and interesting virtual worlds, only for players to do speed-runs from one end to the other, blazing past intricate details and stunning vistas. After putting on the DK2, you can't help but go back and look at **everything**. I spent a good 10 minutes in [Elite Dangerous](http://www.elitedangerous.com/ "http://www.elitedangerous.com/") just inspecting every detail of the Sidewinder cockpit, wanting to reach out and grab a hold of the handles above your head, and leaning over towards the mission panel which opens up automatically when you look at it, and then just being captivated by asteroids silently gliding past the canopy, only tens of meters away.
+
+![](/assets/media/posts/2014-09-01-oculus/elite-dangerous.jpg?w=500)
+
+## Everything you could do, you can now do better.
+
+I've spent years and thousands of hours, intentionally or not, honing my hand-eye coordination between the mouse, keyboard, and screen. You'd think adding an extra variable like the DK2 to the mix would mean taking a step back and learning all those coordination skills over. This is most definitely not the case.
+
+In Elite Dangerous alone, you can sense distance and plan close maneuvers with ease, doing a little off-axis orbit of an asteroid and swooping up behind unsuspecting enemy vessels, giving you that extra level of situational awareness. Even using the joystick and rudder felt easier than before, with a much more natural feel.
+
+Half-Life 2 was a real surprise. The native VR control scheme is for the mouse to control the crosshairs, which is constrained to the inner most 75% of your view. As you look around, the crosshairs come with you, or as you move the crosshairs, the view goes with it.
+
+![](/assets/media/posts/2014-09-01-oculus/hl2.jpg?w=500)
+
+I happened to load up the airboat section, jumping out to open one of the huge flood gates along the canal. As I entered the concrete passageway, there on the table in front of me lie the first .357 magnum revolver in the game. Picking this beast up I suddenly remember what happens next, as two Combine soldiers come bursting through the door at the end of the room.
+
+Without really giving it much thought, I level the crosshairs and click the mouse like I have a million times before. Two shots ring out in my headphones just a second apart, and two dark red splotches adorn the walls where the heads of two combine soldiers used to be. Even with all my experience in point-and-click murder games, I'm not sure I would have normally made those shots as quickly and accurately as that. _“What just happened”_ was the only statement I could come up with at the time.
+
+Not even a fluke, it turns out, as I continue to play the game for ~20 minutes and shoot man-hacks out of the air, throw grenades onto peoples heads, and drop soldiers before they even have a chance to react.
+
+Running head-long into a confrontation with another soldier, I accidentally close the distance a little quicker than intended. At point blank range, I find myself looking directly at the face of a gas-masked combine soldier - eye to eye - just before unloading both barrels of the 12 gauge shotgun into his chest. I was suddenly hit by a wave of genuine guilt for depriving this _man_ of his life in such a visceral way. Take from that what you will.
+
+The fun doesn't even end there - hopping back into the airboat, I was now being pursued by a Combine attack helicopter, buzzing past me on occasion with the characteristic _thud-thud-thud_ of its rotors, and trying to drop bombs directly in my path. As I sped up and passed underneath, I turned and looked up, just to keep an eye on him, as it swept back above my head. As I pointed the airboat down the next straight section of canal I had the opportunity to _put my arm over the back of my office chair, and take a look behind me_, watching the attack chopper peel off so he could cut me off at the next open stretch.
+
+## Judder and Performance
+
+One of the biggest problems I experienced with Elite Dangerous was judder. This is where the tracking of the DK2 seems to lag behind reality, and positional updates become less frequent and detached from the games framerate. I haven't actually pinned down the cause, but it seems to be performance related. If your frame rate is too low, the judder is massively emphasised, and the game becomes visually uncomfortable. I'm still investigating what can be done about this, bar buying a fatter graphics card.
+
+## Comfort and Motion Sickness
+
+Having worn a number of goggles due to an avid interest in Airsoft, I can honestly say the DK2 sits very comfortably on your face. If you need to wear glasses in every-day life, you'll want to wear glasses with the rift, otherwise the edges of your vision will be blurred. This blurriness is only about as much as holding a picture 75cm away from your face, but then it depends how short-sighted you are.
+
+Certain games - and I haven't figured out if this is the control scheme, the field-of-view or view-bob/shake - will induce motion sickness. Oddly in my experience, the motion sickness doesn't kick in _so long as I'm playing the game_, however when I took off the DK2 I was finding that _reality_ was giving me motion sickness. Numerous people on forums have said this eventually passes, and is entirely down to the relationship between your inner ear and your brain. The motion sickness is your brain unable to reconcile the lack of inner ear motion with the visual motion, and is not dissimilar to what astronauts must go through when acclimatising to zero-g.
+
+## Screen Door and Chromatic Aberration effects
+
+The "screen door" effect is basically being able to see the vertical and horizontal black lines that separate the pixels in the screen. This is still present, but it's akin to looking at an old DLP projector, projecting onto a large wall. Once you're in a game, it's barely even noticeable, and doesn't feel like you're looking through a screen at all, you just wish the pixel density was higher so you could see more detail. Even with the 1920×1080 screen (shared between two eyes), the DK2 could use way more resolution. A 4K screen would be perfect, but technology (and deals with technology companies) is still lagging behind in that regard.
+
+Chromatic aberration is the lens distortion of red, green and blue light. As we know from Pink Floyd's Dark Side of the Moon, light travels at different speeds through a lens (such as a prism).
+
+<div class="text-center">
+    <img src="/assets/media/posts/2014-09-01-oculus/pink_floyd_-_dark_side_of_the_moon.jpg" width="300" />
+</div>
+
+The DK2 software needs to compensate for the chromatic aberration of its lenses by distorting the RGB chanels of the image. It does this fairly successfully, however it's currently calculated from eye-relief and pupil-distances. As a result, it's hard to get the values right and often you'll end up with a bit of an RGB split in the edges of your vision. Again, you hardly notice this when you're actually playing anything. I would however much rather see the RGB separation slaved to a slider, or shortcut keys, so I can “walk in” the values myself and zero out the effect manually.
+
+## Setup and incompatibility
+
+I had some serious problems getting the DK2 to mount correctly on my system. HMD mode (native mode) does not currently work at all. Instead I'm forced to run in Extended Desktop mode, which _mostly_ works. Due to the “orientation” of the screen in the DK2, I can't run with my primary monitor being cloned, which is a shame. Hopefully this will be fixed in future releases (or firmware?).
+
+I had compatibility issues with an external USB video card and my webcam, so both of these had to be disconnected until I had the drivers working properly.
+
+In order to make some games work, you need to kill the Oculus driver service and let the game do most the work. [The Unofficial Oculus Service Manager](http://www.reddit.com/r/oculus/comments/2c6qqc/updated_unofficial_oculus_service_manager_by/ "http://www.reddit.com/r/oculus/comments/2c6qqc/updated_unofficial_oculus_service_manager_by/") gives you some control over the service an various elements that mess with the DK2 and prevent it from working.
+
+Largely, getting games to run is on a case-by-case basis. This is only a development kit so that's perfectly understandable and OK, so Google is your friend when it comes to getting other peoples games to work on your system.
+
+## This just might be the future
+
+Usually devices which purport to be super-awesome, once you get your hands on them you can see all sorts of flaws which make them not-very-good for very many things. This is not the case with the DK2\. If anything, I can see all sorts of potential which just hasn't been realised yet.
+
+I've never felt so absolutely immersed - so completely _there_ as I have with the DK2 on my face. Sure, the resolution could be better, the chromatic aberration is distracting, and getting a lot of games to run on it is a nightmare all by itself, but once you're in.. It's like jumping into the matrix, or getting beamed into The Grid (See also: Tron). You've not really playing a game at that point, as you feel more like you're experiencing a location, or a situation. It's really very impressive.
+
+If the CV1 (Oculus Rift Commerical Version 1) were to be released tomorrow, with the driver problems solved and a higher resolution..
+
+![](/assets/media/posts/2014-09-01-oculus/suatmm.gif)
+

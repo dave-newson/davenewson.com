@@ -1,0 +1,240 @@
+/*
+Maximum Fish, Fish Calculator CSS
+IE fucking sucks.
+
+
+Z-index.. uh, index.
+background = 1
+fish counter = 2
+fish = 3/5
+bubbles = 4
+foreground = 6
+logo = 7
+
+
+*/
+
+*    
+{
+    margin: 0px;
+    padding: 0px;
+    cursor: default;
+}
+
+html, body
+{
+    height: 100%;
+    border-collapse: collapse; border: none 0px;
+    font-family: verdana,helvetica,geneva,arial,sans-serif; 
+    font-size: 12px; font-style: normal; font-weight: normal; text-decoration: none;
+    overflow: hidden;
+    background-color: #7CB8EA;
+    
+}
+
+table, tr, td
+{
+    border-collapse: collapse; border: none 0px;
+}
+
+a, a *      { text-decoration: none; cursor: pointer; }
+
+div.bubbles
+{
+    z-index: 5;
+}
+
+div.fish
+{
+    z-index: 4;
+}
+
+            
+div.br-container
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #000000;
+    z-index: 6;
+    font-size: 10px;
+}
+div.br-container td.info 
+{
+    color: #449DE8;
+    text-align: right;
+    padding: 0px 10px 10px 0px;
+    z-index: 6;
+}
+div.br-container td.info a
+{
+    color: #3393E5;
+}
+div.br-container td.info a:hover
+{
+    color: #EC7C7C;
+}
+
+
+img.background
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+div.fishcounter
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    
+}
+div.fishcounter tr.m td
+{
+    text-align: center;
+    color: #94C7F2;
+    font-size: 200px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+div.fishcounter table
+{
+    width: 100%;
+    height: 100%;
+}
+
+div.fishcounter tr.t td, div.fishcounter tr.b td
+{
+    width: 100%;
+    height: *;
+}
+
+div.fishcounter tr.m
+{
+    width: 100%;
+    height: *;
+}
+
+
+div.maximumfish
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+
+div.maximumfish table
+{
+    width: 100%;
+    height: 100%;
+}
+
+div.maximumfish td.l, div.maximumfish td.r, div.maximumfish td.body, div.maximumfish tr.m
+{
+    height: 1%;
+}
+
+td.r
+{
+    overflow: hidden;
+}
+
+div.maximumfish tr.t, div.maximumfish tr.b, 
+div.maximumfish td.t, div.maximumfish td.tl, div.maximumfish td.tr,
+div.maximumfish td.bl, div.maximumfish td.b, div.maximumfish td.br
+{
+    height: 52px;
+}
+
+div.maximumfish td.tr, div.maximumfish td.tl, div.maximumfish td.br, div.maximumfish td.bl
+{
+    width: 25px;
+}
+
+
+div.maximumfish td.t    {background:    url(images/border/t.png)             bottom    repeat-x;    }
+div.maximumfish td.b    {background:    url(images/border/b.png)             top       repeat-x;    }
+div.maximumfish td.l    {background:    url(images/border/l.png)             right     repeat-y;    }
+div.maximumfish td.r    {background:    url(images/border/r.png)             left      repeat-y;    }
+div.maximumfish td.bl   {background:    url(images/border/bl.png)    top     right     no-repeat;   }
+div.maximumfish td.br   {background:    url(images/border/br.png)    top     left      no-repeat;   }
+div.maximumfish td.tl   {background:    url(images/border/tl.png)    bottom  right     no-repeat;   }
+div.maximumfish td.tr   {background:    url(images/border/tr.png)    bottom  left      no-repeat;   }              
+
+div.maximumfish td.pad
+{
+    width: 100%;
+}
+
+
+div.maximumfish table tr.m td.body
+{
+    text-align: center;
+    width: 1%;
+    font-size: 60px;
+    color: #7CB8EA;
+    font-weight: bold;
+    background-color: #ebf6ff;
+    z-index: 6;
+}
+div.maximumfish span.result
+{
+    color: #7CB8EA;
+    font-size: 100px;
+}
+
+
+div.maximumfish table tr.m td.body a:hover
+{
+    color: #EA7A7A;
+}
+
+div.maximumfish table tr.m td.body a
+{
+    font-weight: bold;
+    font-size: 20px;
+    color: #7CB8EA;
+    border: 4px outset #888888;
+    padding: 5px;
+}
+
+div.maximumfish div.logo_holder
+{
+    text-align: center;
+    vertical-align: bottom;
+    width: 100%;
+    height: 0px;
+    overflow: visible;
+}
+
+div.maximumfish div.logo_holder img
+{
+    z-index: 7;
+    position: relative;
+    left: 300px;
+    top: -50px;
+    visibility: hidden;
+}
+
+div.maximumfish td.body span.resume_button
+{
+    visibility: hidden;
+}
+
+div.maximumfish td.body span
+{
+    display: block;
+    margin: 10px 0px 10px 0px;
+}
