@@ -19,13 +19,13 @@ preserve_path_title: false
 layout_ext: ['html.twig', 'twig', 'html']
 
 comments:
-  enabled: false
-  disqus_shortname: ""
+  enabled: true
+  disqus_shortname: "impracticality"
 
 social_networks:
     twitter: "vincetherunt" # Your id without @
     github: "https://github.com/dave-newson"
-    linkedin: # Your URL
+    linkedin: "http://www.linkedin.com/in/davenewson"
 
 collections:
   posts:
