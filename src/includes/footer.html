@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
+                <ul class="list-inline text-center social">
                     {% if site.social_networks.twitter %}
                     <li>
                         <a href="https://twitter.com/{{ site.social_networks.twitter }}" title="Twitter">
@@ -98,9 +98,15 @@
 <!-- Bootstrap Core JavaScript -->
 <script src="{{ site.url }}/assets/js/bootstrap.min.js"></script>
 
-<!-- Custom Theme JavaScript -->
-<script src="{{ site.url }}/assets/js/clean-blog.min.js"></script>
+<!-- ScrollMagic -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>
 
 <!-- Highlight JS -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+
+<!-- Custom Theme JavaScript -->
+<script src="{{ site.url }}/assets/js/clean-blog.min.js"></script>
+<script src="{{ site.url }}/assets/js/anim.min.js"></script>
