@@ -12,7 +12,7 @@ composer.phar
 spress.phar
 
 # Binaries
-src/content/download/
+src/content/download/*
 
 # Compiled
 build/
