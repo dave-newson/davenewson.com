@@ -16,7 +16,7 @@ gulp.task('default', function() {
     // Build JS to min
     gulp.src(
         [
-            './src/content/assets/js/*.js',
+            './src/js/*.js',
             '!**/*.min.*'
         ])
         // Minify
@@ -25,11 +25,11 @@ gulp.task('default', function() {
         .pipe(rename({suffix: '.min'}))
         // Output it to our dist folder
         .pipe(gulp.dest('./src/content/assets/js/'));
-
+    
     // Build CSS
     gulp.src(
         [
-            './src/content/assets/less/main.less',
+            './src/less/main.less',
             '!**/*.min.*'
         ])
         // LESS Compile

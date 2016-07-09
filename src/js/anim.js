@@ -3,6 +3,11 @@
  */
 $(function () {
 
+    // Validate: Scroll magic must be installed.
+    if (ScrollMagic === undefined) {
+        return;
+    }
+
     var leaveController = new ScrollMagic.Controller({
         globalSceneOptions: {
             triggerHook: 'onLeave'

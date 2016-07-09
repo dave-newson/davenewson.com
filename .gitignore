@@ -1,8 +1,23 @@
-build/
-vendor/
+# IDE
 .idea/
+
+# Vendors
+# Node is hidden (usually) to stop Spress trying to track it.
+vendor/
 .node_modules/
 node_modules/
-composer.lock
+
+# Framework binaries
+composer.phar
 spress.phar
+
+# Binaries
 src/content/download/
+
+# Compiled
+build/
+src/content/assets/css/*
+src/content/assets/js/*
+
+# Directory persisted
+!.gitkeep
