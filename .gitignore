@@ -19,5 +19,9 @@ build/
 src/content/assets/css/*
 src/content/assets/js/*
 
+# Deploy
+deploy.config.php
+release/*
+
 # Directory persisted
 !.gitkeep
