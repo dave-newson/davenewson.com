@@ -1,23 +1,17 @@
 {
-    "name": "spress-add-ons/clean-blog-theme",
-    "type": "spress-theme",
-    "description": "Clean blog theme for Spress design by Start Bootstrap",
-    "keywords": ["bootstrap", "startbootstrap", "blog", "responsive", "template", "spress"],
-    "license": "Apache-2.0",
+    "name": "dave-newson/davenewson.com",
+    "description": "",
+    "keywords": ["blog", "spress"],
     "authors": [
         {
-            "name": "Victor Puertas",
-            "email": "vpgugr@gmail.com",
-            "homepage": "http://yosymfony.com"
+            "name": "Dave Newson",
+            "email": "dave@davenewson.com",
+            "homepage": "http://davenewson.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
+        "spress/spress": "2.1.*",
         "spress/spress-installer": "2.0.*"
-    },
-    "extra": {
-        "spress_name": "clean_blog",
-        "branch-alias": {
-            "dev-master": "2.0.x-dev"
-        }
     }
 }
