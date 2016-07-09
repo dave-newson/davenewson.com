@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Oculus Rift First Impressions"
-subtitle:   "These are my day 1 impressions of the Oculus Development Kit 2."
+subtitle:   "Day-one impressions of the Oculus DK2."
 date:       "2014-09-01 12:00:00"
 author:     "Dave Newson"
 header_img:
