@@ -1,12 +1,10 @@
 ---
 layout: post
-title:      "REST API Documentation in Zend Framework 2 with Swagger"
-subtitle:   "API Documentation made easy"
+title:      "Unity: coordinates and scales"
+subtitle:   "Creating huge games in Unity's coordinate system"
 date:       "2013-04-26 12:00:00"
 author:     "Dave Newson"
 ---
-
-# [Unity - Coordinates, Scales and creating huge games](/dev/unity-notes-on-rendering-the-big-and-the-small)
 
 Unlike UDK, Unity doesn't actively restrict your world size; you're free to expand and let your players stray until the engine literally runs out of digits and the maths falls apart.
 
