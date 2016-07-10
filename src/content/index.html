@@ -21,7 +21,7 @@ sort_by: "date"
     </a>
     <p class="post-meta">
         <span class="sr-only">Posted by </span>
-        {{ post.author }} - <abbr title="{{ now | date('Y-m-d\\TH:i:s.uP') }}">{{ now | date('F jS Y') }}</abbr>
+        {{ post.author }} - <abbr title="{{ post.date | date('Y-m-d\\TH:i:s.uP') }}">{{ post.date | date('F jS Y') }}</abbr>
     </p>
 </div>
 <hr>
