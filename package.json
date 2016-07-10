@@ -1,9 +1,9 @@
 {
   "name": "dave-newson",
-  "title": "Clean blog theme for Spress",
-  "version": "2.0.0",
-  "homepage": "http://yosymfony.com/",
-  "author": "Victor Puertas",
+  "title": "",
+  "version": "1.0.0",
+  "homepage": "http://davenewson.com/",
+  "author": "Dave Newson",
   "license": {
     "type": "Apache 2.0",
     "url": "http://www.apache.org/licenses/LICENSE-2.0"
@@ -21,6 +21,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/spress-add-ons/Clean-blog-theme.git"
+    "url": "https://github.com/dave-newson/davenewson.com.git"
   }
 }

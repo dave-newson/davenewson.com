@@ -1,85 +1,19 @@
-## Clean blog theme - Spress version
+## DaveNewson.com
 
-Clean blog theme is a ported theme to Spress designed by [Start Bootstrap](http://startbootstrap.com/).
+Designed using [Clean Blog Theme for Spress](https://github.com/spress-add-ons/Clean-blog-theme)
 
-[Live demo](http://spress-add-ons.github.io/clean-blog/).
-
-**This theme requires Spress >= 2.0**. If you are using Spress 1.x, go to [1.0.0](https://github.com/spress-add-ons/Clean-blog-theme/releases/tag/v1.0.0) version of the theme.
-
-### Features
-
-* Fully responsive.
-* Distraction free blog text optimized for legibility.
-* Contact form powered by [getsimpleform](https://getsimpleform.com/).
-* Comments powered by [Disqus](disqus.com).
-
-### How to install?
+### Installation
 
 #### Download a copy
 
-* Get a copy of the latest [release](https://github.com/spress-add-ons/Clean-blog-theme/releases).
-* Uncompress it.
-* Go to `Clean-blog-theme` folder
+* Clone or download one of the [latest releases](https://github.com/dave-newson/davenewson.com/releases).
+* Run `npm install`
+* Run `gulp`
+* Run `composer install`
 * Run `spress site:build --server --watch`
-
-#### Using Git
-
-* [Fork this repository](https://github.com/spress-add-ons/Clean-blog-theme/fork)
-* Clone it: ` https://github.com/YOUR-USER/Clean-blog-theme.git
-* Go to `Clean-blog-theme` folder
-* Run `spress site:build --server --watch`
-
-## Configuration
-
-### Comments
-
-Comments are powered by [Disqus](disqus.com) and they need a 
-**disqus shortname**. To get it, you need to create an account at this service.
-It's free.
-
-```yaml
-comments:
-  enabled: true
-  disqus_shortname: "your-shortname"
-```
-
-### Top menu
-
-The top menu is composed by each of **pages with `title` attribute**. e.g: `./src/content/about.md`:
-
-```yaml
-title: "About me"
-```
-
-### Contact form
-
-The contact form is a AJAX form configured in `config.yml`:
-
-```yaml
-forms:
-    contact:
-        getsimpleform_api_token:
-```
-
-You need a API key from [getsimpleform](https://getsimpleform.com/) service. It's free.
-
-### Writing a post
-
-To create a new post, runs `new:post` command from Spress:
-
-```bash
-$> spress new:site
-```
-
-Each post has a header image. You can configure your image and some data about it.
-
-```yaml
-header_img:
-  url: "assets/img/post-bg-07.jpg"
-  author: "Yuri Samoilov"
-  author_url: "https://flic.kr/p/mjhDwB"
-```
 
 ## License
 
-[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+Information held inside this blog is released under the [MIT License](https://opensource.org/licenses/MIT), unless other licensing terms are stated.
+
+Clean Blog Theme is released under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0).
