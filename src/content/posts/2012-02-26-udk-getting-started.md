@@ -4,6 +4,7 @@ title:      "Starting out with UDK"
 subtitle:   "The things they forget to tell you"
 date:       "2012-02-26 12:00:00"
 author:     "Dave Newson"
+thumb_img:  "/assets/media/posts/2012-02-26-udk-getting-started/thumb.png"
 ---
 
 ![](/assets/media/posts/2012-02-26-udk-getting-started/udk3logo.png)

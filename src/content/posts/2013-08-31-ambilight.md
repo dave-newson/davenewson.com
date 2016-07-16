@@ -4,6 +4,7 @@ title:      "Ambilight with Teensy 2"
 subtitle:   "Make your wall glow with the image from your TV."
 date:       "2013-08-31 12:00:00"
 author:     "Dave Newson"
+thumb_img:  "assets/media/posts/2013-08-31-ambilight/diagram.png"
 header_img:
   url: "assets/media/posts/2013-08-31-ambilight/frame.jpg"
   darken: 0.25
@@ -183,7 +184,7 @@ Ensure that **both ends** of your LED light strip are grounded. I grounded one e
 
 My complete wiring setup looks like the one below. Remember; your wiring may be different depending on the LED strip you use. Be sure to follow the steps above to identify which wires are what.
 
-[![Adalight for Teensy 2 wiring diagram](/assets/media/posts/2013-08-31-ambilight/diagram.png?w=600&tok=d2d78e "Adalight for Teensy 2 wiring diagram")](/assets/media/posts/2013-08-31-ambilight/diagram.png "tutorials:electronics:adalight:diagram.png")
+[![Adalight for Teensy 2 wiring diagram](/assets/media/posts/2013-08-31-ambilight/diagram.png)](/assets/media/posts/2013-08-31-ambilight/diagram.png)
 
 ## 4. Test run
 

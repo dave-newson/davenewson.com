@@ -4,6 +4,9 @@ title:      "Conditional Aggregation on Arrays of Objects in MongoDB"
 subtitle:   "A nifty (if hacky) way of conditionally aggregating an array of objects in MongoDB"
 date:       "2013-10-29 12:00:00"
 author:     "Dave Newson"
+thumb_img:  "assets/media/posts/2013-10-29-mongo-aggregate/thumb.jpg"
+header_img:
+    url:
 ---
 
 If you work with databases and haven't yet heard of MongoDB, take a few minutes and watch [MongoLab's Will Shulman talk about MongoDB for small applications](https://www.youtube.com/watch?v=b1BZ9YFsd2o "https://www.youtube.com/watch?v=b1BZ9YFsd2o"). If that sounds like your kind of tech, then maybe consider hopping over to [MongoDB University](https://education.mongodb.com/ "https://education.mongodb.com/") and sign up for M101 while the courses are still free!

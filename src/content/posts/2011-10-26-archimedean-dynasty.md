@@ -4,6 +4,7 @@ title:      "Archimedean Dynasty Trailers"
 subtitle:   "Re-theming game trailers"
 date:       "2011-10-26 12:00:00"
 author:     "Dave Newson"
+thumb_img:  "/assets/media/posts/2011-10-26-archimedean-dynasty/thumb.png"
 ---
 
 Back in mid-2007 I set about starting my own _Let's Play_ thread for Archimedean Dynasty (also known as _Schleichfahrt_ in Germany, meaning “silent running”), a game from 1996 where you play Captain Emerald “Deadeye” Flint, set in a future world where a nuclear war has made the surface of the earth uninhabitable, the survivors having fled to the depths of the oceans.

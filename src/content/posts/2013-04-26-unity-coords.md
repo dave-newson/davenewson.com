@@ -4,6 +4,7 @@ title:      "Unity: coordinates and scales"
 subtitle:   "Creating huge games in Unity's coordinate system"
 date:       "2013-04-26 12:00:00"
 author:     "Dave Newson"
+thumb_img:  "/assets/media/posts/2013-04-26-unity-coords/thumb.png"
 ---
 
 Unlike UDK, Unity doesn't actively restrict your world size; you're free to expand and let your players stray until the engine literally runs out of digits and the maths falls apart.

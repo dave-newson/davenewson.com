@@ -4,13 +4,14 @@ title:      "Planet Earth Material Shader for UDK"
 subtitle:   "Based on JavaHawk's original Earth / Planet Material Shader tutorial"
 date:       "2012-12-08 12:00:00"
 author:     "Dave Newson"
+thumb_img: "assets/media/posts/2012-12-08-earth-shader/earth.jpg"
 header_img:
   url: "assets/media/posts/2012-12-08-earth-shader/earth.jpg"
 ---
 
 This is a fairly in-depth tutorial based on [JavaHawk's original Earth / Planet Material Shader tutorial](http://www.youtube.com/watch?v=xS8vDVCHF9c "http://www.youtube.com/watch?v=xS8vDVCHF9c"), aiming to improve upon the original concept and provide a more realistic looking planet.
 
-[![UDK Planet Earth Material Shader](/assets/media/posts/2012-12-08-earth-shader/earth.jpg?w=600&tok=df5355 "UDK Planet Earth Material Shader")](/assets/media/posts/2012-12-08-earth-shader/earth.jpg "tutorials:udk:planet-earth:earth.jpg")
+[![UDK Planet Earth Material Shader](/assets/media/posts/2012-12-08-earth-shader/earth.jpg)](/assets/media/posts/2012-12-08-earth-shader/earth.jpg)
 
 ## Preface
 

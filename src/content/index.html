@@ -1,7 +1,6 @@
 ---
 layout: "page"
 subtitle: "Tinkering with all the things."
-
 generator: "pagination"
 provider: "site.posts"
 max_page: 5
@@ -10,6 +9,7 @@ sort_by: "date"
 {% for post in page.pagination.items %}
 <div class="post-preview">
     <a href="{{ site.url }}{{ post.url }}">
+        <div class="post-thumbnail" style="background-image:url('{{ site.url }}{{ post.thumb_img }}');"></div>
         <h2 class="post-title">
             {{ post.title }}
         </h2>

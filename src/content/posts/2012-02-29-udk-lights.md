@@ -4,6 +4,7 @@ title:      "UDK Dynamic Lights and Interp Actors"
 subtitle:   "How to make shadows and doors play together"
 date:       "2012-02-29 12:00:00"
 author:     "Dave Newson"
+thumb_img: "assets/media/posts/2012-02-29-udk-lights/4_1_.jpg"
 header_img:
   url: "assets/media/posts/2012-02-29-udk-lights/4_1_.jpg"
   darken: 0.5
