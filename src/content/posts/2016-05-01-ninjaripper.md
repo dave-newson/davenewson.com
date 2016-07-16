@@ -4,12 +4,16 @@ title:      "Model extraction with NinjaRipper"
 subtitle:   "Porting copyrighted material for fun and no profit"
 date:       "2016-05-01 12:18:00"
 author:     "Dave Newson"
+thumb_img:  "/assets/media/posts/2016-05-01-ninjaripper/11-mesh.png"
 header_img:
   url: "assets/media/posts/2016-05-01-ninjaripper/header.jpg"
   darken: 0.5
 ---
 
-> Teach a man to rip models, and you do him a good turn. Give a man a model, and that's copyright infringement. 
+<blockquote>
+Give a man a ripped model, and that's copyright infringement.
+<br /><i>Teach</i> a man to rip models ..
+</blockquote>
 
 ## Motivation
 
@@ -36,7 +40,7 @@ There are, of course, a few threads for Battlefield models:
  - [BF4 & MoH WG models](https://facepunch.com/showthread.php?t=1396674)
  - [Dice models V1](https://facepunch.com/showthread.php?t=1320985)
  - [Models BF4 and BFH](https://facepunch.com/showthread.php?t=1458438)
- - [Battlefield 3 Vehicle modles](https://facepunch.com/showthread.php?t=1290750)
+ - [Battlefield 3 Vehicle models](https://facepunch.com/showthread.php?t=1290750)
 
 I found a few problems, however, in trying to use the models I found on FacePunch:
  - Not all the vehicles I wanted to play around with were available (at the time).
@@ -60,7 +64,7 @@ Where NinjaRipper kind of sucked however, was the MaxScript used to convert the 
  - Extracting multiple rip files was very slow.
  - A single texture and UV map was extracted, even if multiple maps/textures were visible in the source of the `.rip`.
  - UVs were often flipped.
- - Dodgy UV map coords could result in 3D Studio crashing.
+ - Dodgy UV map co-ords could result in 3D Studio crashing.
 
 I found a [slightly improved ninja_importerb7_cl69.ms by Mark Ludwig](http://forum.xentax.com/viewtopic.php?p=83507&sid=9692c5110a4442150b8161d976205f22#p83507),
 and this fixed a handful of the problems:
@@ -84,7 +88,7 @@ Conveniently I'm a programmer by trade, so I decided to lift the lid off this th
  - Tweaked debug messaging, improved speed, split and restructured the code.
 
 <div class="text-center">
- <a href="https://github.com/dave-newson/ninja-ripper-ms" class="btn btn-primary">View the souce on GitHub</a>
+ <a href="https://github.com/dave-newson/ninja-ripper-ms" class="btn btn-primary">View the source on GitHub</a>
 </div>
 
 Now that the ripper is capable of getting what I'm after, let's put together a workflow that allows us to get the
@@ -176,7 +180,7 @@ To specify the specific UV byte index positions, you'll need to change the mode 
 
 Quite a bit of trial-and-error is required for the UV index numbers. You may also need to flip the UV Vertical axis.
 
-<table class="table table-borderer">
+<table class="table table-bordered">
 <tr>    <th>Item</th>                       <th>Diffuse UV</th> <th>Normals UV</th> <th>Flip Vertical Axis</th> </tr>
 <tr>    <td>Battlefield 3 Objects</td>      <td>u12 / v13</td>  <td>u14 / v15</td>  <td>Yes</td>                </tr>
 <tr>    <td>Battlefield 3 Vehicles</td>     <td>u15 / v16</td>  <td>u17 / v18</td>  <td>Yes</td>                </tr>
@@ -195,7 +199,7 @@ Even if it's showing with the wrong texture, providing your texture map looks _k
 
 Open up the `Material Editor`, and use the `Pick Material from Object` tool to obtain the Multi/Sub-Object map on the item.
 
-![Raw NinjaRipper Import to 3D Studio Max](/assets/media/posts/2016-05-01-ninjaripper/09-materials.png)
+![Raw NinjaRipper Import to 3D Studio Max](/assets/media/posts/2016-05-01-ninjaripper/09-materials.jpg)
 
 This stage requires you to do some manual work; you'll have to set up the actual material and place the correct maps into the correct slots.
 
@@ -216,7 +220,7 @@ This is not related to the import; it's just how the mesh was stored for the dra
 Before you fix this, you should try using the `Edit Mesh` `>` `Select Element` tool to pick parts of the mesh. 
 The mesh is usually split up by it's smoothing groups, and this gives you an opportunity to rebuild those groups.
 
-Once this is done, you can weld all the verts together at a very low tollerance (eg. `0.001`), 
+Once this is done, you can weld all the vertices together at a very low tolerance (eg. `0.001`),
 and use `Select Element` to pick and move the various parts of the model around.
 
 Once all that's done, you can start to bone and skin the model, then animate, export to FBX, and bring it into UE4.
