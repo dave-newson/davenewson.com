@@ -43,6 +43,7 @@ There are, of course, a few threads for Battlefield models:
  - [Battlefield 3 Vehicle models](https://facepunch.com/showthread.php?t=1290750)
 
 I found a few problems, however, in trying to use the models I found on FacePunch:
+
  - Not all the vehicles I wanted to play around with were available (at the time).
  - The normal maps were missing from a lot of the models.
  - Some of the textures were a bit.. weird, or the UVs looked a bit _off_. Some manual intervention had been required.
@@ -169,7 +170,7 @@ Now I have the texture name, I can search the `.rip` files for the same name, `T
 
 ### Importing to 3d Studio
 
-Once in 3D Studio Max, go to the main menu Bbr and select `Max Script` `>` `Run Script...`.  
+Once in 3D Studio Max, go to the main menu bar and select `Max Script` `>` `Run Script...`.
 Browse to wherever your downloaded the [modified ninja_ripper_import.ms max scripts](https://github.com/dave-newson/ninja-ripper-ms), and select it to run the script.
 
 ![Ninja Ripper Max Script](/assets/media/posts/2016-05-01-ninjaripper/07-ninja-ripper.png)
@@ -232,9 +233,6 @@ Yes, it is.
 Still, totally worth it to get flung off an aircraft carrier at 176 miles an hour.
 
 ![](/assets/media/posts/2016-05-01-ninjaripper/12-ue4.jpg)
-
-
-
 
 
 
