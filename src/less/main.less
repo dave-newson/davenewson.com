@@ -1,5 +1,38 @@
 @import "./clean-blog.less";
 
+article {
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+    h3 {
+        font-size: 1.4em;
+    }
+    h4 {
+        font-size: 1.2em;
+    }
+    h5, h6 {
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    // All responsive article images
+    // Center align, max 400 px height.
+    .img-responsive {
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 400px;
+
+        // Allow override to show original image
+        &.original {
+            max-height: none;
+        }
+
+    }
+}
+
 img {
     max-width: 100%;
 }
