@@ -17,7 +17,7 @@ layout: default
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <span class="meta">{{ page.author }} - <abbr title="{{ now | date('Y-m-d\\TH:i:s.uP') }}">{{ now | date('F jS Y') }}</abbr></span>
+                    <span class="meta">{{ page.author }} - <abbr title="{{ page.date | date('Y-m-d\\TH:i:s.uP') }}">{{ page.date | date('F jS Y') }}</abbr></span>
                     {% if page.header_img.author %}
                     <br>
                     <span class="meta">Photo by 
