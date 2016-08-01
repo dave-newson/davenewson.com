@@ -20,8 +20,14 @@ jQuery(function() {
         // If we can determine naturalHeight (HTML5)
         // Then don't use lightbox where the image is no bigger at native.
         if (img.naturalHeight != undefined) {
-            if (img.naturalHeight <= img.height) {
-                return;
+
+            // If the image is loaded (not zero height) and IS the same height, don't use lightbox.
+            // 90% of the time the image won't be loaded. Oh well.
+            if (img.naturalHeight <= img.height
+                && img.height != 0
+                && img.naturalHeight != 0
+            ) {
+                return true;
             }
         }
 
